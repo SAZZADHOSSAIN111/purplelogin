@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.body{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(90deg, rgb(95,74,168), rgb(179, 8, 247));
+    /* background-color: red; */
+
+}
+
+.conteiner{
+    height: 480px;
+    width: 500px;
+    background-color: rgb(37, 19, 56);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+p{
+    color: white;
+    font-size: 10px;
+}
+.L{
+    color: white;
+    font-size: 10px;
+    margin-right: 12px;
+}
+
+.facebook{
+    width: 80px;
+    height: 80px;
+    border: 2px solid rgb(108,43,97);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+
+.TWITERR{
+    width: 80px;
+    height: 80px;
+    border: 2px solid Rgb(108,43,97);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-10PX);
+    background-color: rgb(37, 19, 56);
+}
+
+.form{
+    margin: 40px 90px 0 90px;
+}
+
+input{
+    padding: 10px;
+    width: 320px;    
+    border-radius: 5px;
+    background-color: transparent;
+    border: 3px solid rgb(108,43,97);
+    outline: none;
+    color: white;
+}
+
+#in{
+    margin-top: 20px;
+}
+
+input:placeholder-shown{
+    color: white;
+    
+}
+
+.FORGOTTPASS{
+    margin-top: 20PX;
+    text-align: center;
+    color:rgb(108,43,97) ;
+    font-size: 12px;
+}
+
+.buttona{
+     padding: 10px;
+     width: 320px;
+     background-color: rgb(20,178,102);
+     border: none ;
+     border-radius: 5px;
+     margin-top:20px;
+     position:relative;
+     left: 50%;
+     transform: translate(-50%);     
+}
+.buttonb{
+     padding: 10px;
+     width: 320px;
+     background-color: rgb(255,206,0);
+     border: none ;
+     border-radius: 5px;
+     margin-top:20px;
+     position:relative;
+     left: 50%;
+     transform: translate(-50%);     
+}
